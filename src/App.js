@@ -3,18 +3,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // เพิ่มการใช
 
 function App() {
   const products = [
-    { id: 1, name: 'Cat Condo 1', price: 100 , image: 'logo192.jpg' },
-    { id: 2, name: 'Cat Condo 2', price: 150 , image: 'url_to_image1.jpg'},
-    { id: 3, name: 'Cat House 1', price: 200 , image: 'url_to_image1.jpg'},
-    { id: 4, name: 'Cat House 2', price: 250 , image: 'url_to_image1.jpg'},
-    { id: 5, name: 'Luxury Condo', price: 300 , image: 'url_to_image1.jpg'},
-    { id: 6, name: 'Modern Condo', price: 350 , image: 'url_to_image1.jpg'},
-    { id: 7, name: 'Wooden Cat House', price: 400 , image: 'url_to_image1.jpg'},
-    { id: 8, name: 'Steel Cat House', price: 450 , image: 'url_to_image1.jpg'},
-    { id: 9, name: 'Outdoor Condo', price: 500 , image: 'url_to_image1.jpg'},
-    { id: 10, name: 'Deluxe Cat Condo', price: 600 , image: 'url_to_image1.jpg'},
-    { id: 11, name: 'Cat Mansion', price: 7500 , image: 'url_to_image1.jpg'},
-    { id: 12, name: 'Rich Cat', price: 10000 , image: 'url_to_image1.jpg'},
+        { id: 1, name: 'Cat Condo Poor', price: 100 , image: '/Icon/cat1.webp' },
+    { id: 2, name: 'Cat Condo Standard', price: 150 , image: '/Icon/cat2.webp' },
+    { id: 3, name: 'Cozy Cat House', price: 200 , image: '/Icon/cat3.webp' },
+    { id: 4, name: 'Spacious Cat House', price: 250 , image: '/Icon/cat4.jpeg' },
+    { id: 5, name: 'Luxury Condo', price: 300 , image: '/Icon/cat5.jpeg' },
+    { id: 6, name: 'Modern Condo', price: 350 , image: '/Icon/cat6.jpeg' },
+    { id: 7, name: 'Wooden Cat House', price: 400 , image: '/Icon/cat7.webp' },
+    { id: 8, name: 'Steel Cat House', price: 450 , image: '/Icon/cat8.jpeg' },
+    { id: 9, name: 'Outdoor Condo', price: 500 , image: '/Icon/cat9.jpeg' },
+    { id: 10, name: 'Deluxe Cat Condo', price: 600 , image: '/Icon/cat10.webp' },
+    { id: 11, name: 'Cat Mansion', price: 7500 , image: '/Icon/cat11.jpeg' },
+    { id: 12, name: 'Rich Cat', price: 10000 , image: '/Icon/cat12.webp' },
   ];
 
   const [cart, setCart] = useState([]);
